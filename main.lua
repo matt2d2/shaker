@@ -13,3 +13,4 @@ function shakeSensor:accelerometer(e)
 end
 end
 Runtime:addEventListener("accelerometer", shakeSensor)
+timer.performWithDelay(1000, shakeSensor, -1)
