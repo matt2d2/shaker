@@ -3,8 +3,8 @@ application =
 	launchPad = false,
 	content =
 	{
-		width = 854,
-		height = 480,
+		width = 480,
+		height = 854,
 		scale = "letterbox"
 	},
 }
