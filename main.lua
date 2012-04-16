@@ -8,6 +8,8 @@ shakerImage.y = display.contentHeight * 0.5
 local shakerSound = audio.loadSound("shakerSound.wav")
 local shakeSensor = {}
 
+system.setAccelerometerInterval( 100 );
+
 function shakeSensor:accelerometer(e)
 	if(e.isShake == true) then
 		audio.play( shakerSound )
