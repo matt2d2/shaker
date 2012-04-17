@@ -1,6 +1,6 @@
 display.setStatusBar(display.HiddenStatusBar)
 
-local shakerImage = display.newImage("cocktail-shaker.jpg")
+local shakerImage = display.newImage("shaker.png", true)
 shakerImage:setReferencePoint(display.CenterReferencePoint)
 shakerImage.x = display.contentWidth * 0.5
 shakerImage.y = display.contentHeight * 0.5
