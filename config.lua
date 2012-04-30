@@ -6,4 +6,5 @@ application =
 		height = 480,
 		scale = "letterbox"
 	},
+	launchPad = false
 }
